@@ -168,9 +168,7 @@ position: relative;
 
 
 
-.nosotros p, h1, h2, h3, h4, a {
-    color: black;
-}
+
 
 .section{
     display: flex;
@@ -260,4 +258,39 @@ position: relative;
 
  .p-conta{
      text-align: center;
+
+ }
+ .main{
+     background-color: black;
+     margin: 0;
+     padding: 1rem;
+ }
+
+ .main h1, h2, h3, h4, p, a{
+     color: white;
+ }
+
+ .footer{
+     background-color: gray;
+     padding: 2rem;
+     margin: 0;
+ }
+
+
+ .footer-nos{
+     margin: 0;
+     padding: 1rem;
+ }
+
+ .p-nos{
+     background-color:black;
+     color: white;
+     margin: 0;
+     padding: 1rem;
+ }
+ .header-nos{
+     background-color: black;
+     color: white;
+     margin: 0;
+     padding: 1rem;
  }
