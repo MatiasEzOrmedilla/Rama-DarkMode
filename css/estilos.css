@@ -1,0 +1,263 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+}
+
+h1{
+    font-size: 3.8rem;
+}
+
+h2{
+    font-size: 2.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+h4{
+    font-size: 1.8rem;
+}
+
+.titulo{
+    text-align: center;
+    font-weight: 700;
+}
+
+.nav-fondo{
+    background-color: #05A79E; 
+}
+.navegacion-principal{
+  padding: 1rem;
+  display: flex;
+flex-direction: row;}
+
+@media screen and (min-width:468){
+    .navegacion-principal{
+        padding: 1rem;
+        display: flex;
+        justify-content: space-around;
+      }
+}
+
+.contenedor{
+    width: 120rem;
+    margin: 0 auto;
+}
+
+.navegacion-principal a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navegacion-principal a:hover{
+    color: #DE121D;
+}
+
+.section{
+background-image: url(../img/negocios.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 60rem;
+position: relative;
+}
+
+.section-contenido{
+    position: absolute;
+    background-color: rgb(0,0,0,.7);
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-contenido h2,
+.section-contenido p{
+    color: #ffffff;
+}
+
+.boton{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #DE121D;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    width: 20%;
+    text-align: center;
+}
+
+.servicios{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1rem;
+}
+
+.servicio .icono{
+    height: 15rem;
+    width: 15rem;
+    background-color:#05A79E;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.servicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicio p{
+    line-height: 2;
+}
+
+.footer{
+    text-align: center;
+    font-weight: bold;
+    background-color: #05A79E;
+    padding-top: 2rem;
+}
+
+.nav-footer a{
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: (3, 1fr);
+}
+
+.logito{
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+}
+
+.header h1{
+    color: #ffffff;
+}
+
+
+
+.nosotros p, h1, h2, h3, h4, a {
+    color: black;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.navegacion-principal{
+    padding: 1rem;
+    display: flex;
+  flex-direction: row;}
+  
+  @media screen and (min-width:468){
+      .navegacion-principal{
+          padding: 1rem;
+          display: flex;
+          justify-content: space-around;
+        }
+  }
+
+  .navegacion-principal{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+  .row{
+      display:flex;
+      flex-direction:row;
+  }
+
+  .col-12{
+   padding: 2rem;
+  }
+  
+  .footer{
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    .img{
+        max-width: 90%;
+    }
+
+    .img-servicios{
+        max-width: 60%;
+        border-radius: 5rem;
+        padding: 2rem;
+    }
+
+    .img-nosotros{
+        
+        display: flex;
+        justify-content: center;
+        width: 80rem;
+        height: 30rem;
+        border-radius: 1rem;
+        }
+    
+
+ .formulario{
+    display: flex;
+    justify-content: center;
+     margin: 0 auto;
+     width: 95%;
+     padding: 5rem;
+    
+
+ }
+
+ .campo{
+     display: flex;
+     flex-direction: column;
+     margin: 5rem;
+     padding: 5rem;
+     height: 30rem;
+
+ }
+
+ .input{
+     margin: 2rem;
+    display: flex;
+    justify-content: center;
+ }
+
+ .p-conta{
+     text-align: center;
+ }
