@@ -294,3 +294,17 @@ position: relative;
      margin: 0;
      padding: 1rem;
  }
+
+.checkboxs{
+    color: white;
+}
+
+.checkbox{
+    color: white;
+}
+
+.form-horizontal{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
